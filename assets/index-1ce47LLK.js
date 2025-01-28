@@ -1,0 +1,5 @@
+import{j as o}from"./jsx-runtime-CLpGMVip.js";import{c as I}from"./reactNode-qhLQ1VKY.js";import{c as g,a as h,I as f,F as v}from"./index-Dq4NPovy.js";const y=({option:s,callBack:n})=>{const r=g.useFormInstance(),{name:a,type:i,disabled:p,className:e,variant:m,autoFocus:u,length:c,mask:d}=s,l=I("h-10 px-3 -mt-1",e==null?void 0:e.control);return o.jsx(h,{option:s,children:o.jsx(f.OTP,{className:l,type:i||"text",autoFocus:u,disabled:p,variant:m,length:c||6,mask:d,onInput:t=>{t!=null&&t.length||r.setFieldValue(a,""),n==null||n({type:v.FIELD_CHANGE,data:{name:a,value:t==null?void 0:t.join("")}})}})})};y.__docgenInfo={description:`InputOTP component
+
+@remarks
+This component renders a text input field within a form, utilizing Ant Design's Input component.
+It handles input changes by triggering a callback function with the updated value.`,methods:[],displayName:"InputOTP",props:{callBack:{required:!1,tsType:{name:"signature",type:"function",raw:"(event: ICallBackEvent) => void",signature:{arguments:[{type:{name:"ICallBackEvent"},name:"event"}],return:{name:"void"}}},description:""},option:{required:!0,tsType:{name:"IOtp"},description:""}}};export{y as I};
